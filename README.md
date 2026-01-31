@@ -50,6 +50,8 @@ npm run dev
 
 The backend server will start on `http://localhost:5000` by default.
 
+(if the backend server fails with jsonwebtoken package error, then just upgrade the package with `npm upgrade jwa`)
+
 ### 4. Frontend Setup
 
 Open a new terminal window, navigate to the `frontend` directory, install dependencies, and start the development server.
