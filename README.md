@@ -45,7 +45,7 @@ Navigate to the `backend` directory, install dependencies, and start the server.
 ```bash
 cd backend
 npm install
-npm run dev
+node server.js
 ```
 
 The backend server will start on `http://localhost:5000` by default.
@@ -59,7 +59,7 @@ Open a new terminal window, navigate to the `frontend` directory, install depend
 ```bash
 cd frontend
 npm install
-npm start
+npm run dev
 ```
 
 The frontend application will be accessible at `http://localhost:3000`.
