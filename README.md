@@ -31,7 +31,14 @@ git clone https://github.com/prerna-phadnis/id-card-generator.git
 cd id-card-generator
 ```
 
-### 2. Backend Setup
+### 2. Database Setup
+```bash
+  brew tap mongodb/brew
+  brew install mongodb-community
+  brew services start mongodb-community
+```
+
+### 3. Backend Setup
 
 Navigate to the `backend` directory, install dependencies, and start the server.
 
@@ -43,7 +50,7 @@ npm run dev
 
 The backend server will start on `http://localhost:5000` by default.
 
-### 3. Frontend Setup
+### 4. Frontend Setup
 
 Open a new terminal window, navigate to the `frontend` directory, install dependencies, and start the development server.
 
